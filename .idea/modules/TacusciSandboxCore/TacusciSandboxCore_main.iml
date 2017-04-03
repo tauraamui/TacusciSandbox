@@ -6,6 +6,7 @@
     <content url="file://$MODULE_DIR$/../../../TacusciSandboxCore/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../../TacusciSandboxCore/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../TacusciSandboxCore/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../TacusciSandboxCore/src/main/kotlin" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -29,5 +30,6 @@
     </orderEntry>
     <orderEntry type="library" name="Gradle: com.goharsha:easyxml::0.1" level="project" />
     <orderEntry type="library" name="Gradle: com.goharsha:easyjson::0.3" level="project" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
   </component>
 </module>

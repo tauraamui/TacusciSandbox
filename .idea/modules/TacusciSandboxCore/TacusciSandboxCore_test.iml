@@ -30,6 +30,7 @@
     </orderEntry>
     <orderEntry type="library" name="Gradle: com.goharsha:easyxml::0.1" level="project" />
     <orderEntry type="library" name="Gradle: com.goharsha:easyjson::0.3" level="project" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="TacusciSandboxCore_main" />
 </module>
