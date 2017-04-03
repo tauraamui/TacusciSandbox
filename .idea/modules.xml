@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TacusciSandbox.iml" filepath="$PROJECT_DIR$/.idea/modules/TacusciSandbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TacusciSandboxCore/TacusciSandboxCore.iml" filepath="$PROJECT_DIR$/.idea/modules/TacusciSandboxCore/TacusciSandboxCore.iml" group="TacusciSandboxCore" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TacusciSandboxCore/TacusciSandboxCore_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TacusciSandboxCore/TacusciSandboxCore_main.iml" group="TacusciSandboxCore" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TacusciSandboxCore/TacusciSandboxCore_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TacusciSandboxCore/TacusciSandboxCore_test.iml" group="TacusciSandboxCore" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TacusciSandboxDesktop/TacusciSandboxDesktop.iml" filepath="$PROJECT_DIR$/.idea/modules/TacusciSandboxDesktop/TacusciSandboxDesktop.iml" group="TacusciSandboxDesktop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TacusciSandboxDesktop/TacusciSandboxDesktop_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TacusciSandboxDesktop/TacusciSandboxDesktop_main.iml" group="TacusciSandboxDesktop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TacusciSandboxDesktop/TacusciSandboxDesktop_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TacusciSandboxDesktop/TacusciSandboxDesktop_test.iml" group="TacusciSandboxDesktop" />
+    </modules>
+  </component>
+</project>
