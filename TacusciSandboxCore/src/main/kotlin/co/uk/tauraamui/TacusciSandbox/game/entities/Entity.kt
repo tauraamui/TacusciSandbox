@@ -8,4 +8,6 @@ import com.shc.silenceengine.math.Vector3
 open class Entity {
 
     val position: Vector3 = Vector3()
+
+    fun update(delta: Float) { println(position) }
 }

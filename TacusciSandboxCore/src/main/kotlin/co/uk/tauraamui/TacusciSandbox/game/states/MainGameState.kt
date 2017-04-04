@@ -1,13 +1,12 @@
 package co.uk.tauraamui.TacusciSandbox.game.states
 
-import co.uk.tauraamui.TacusciSandbox.game.levels.Level
 import co.uk.tauraamui.TacusciSandbox.game.world.World
 import com.shc.silenceengine.core.GameState
 
 /**
  * Created by tauraaamui on 03/04/2017.
  */
-class MainGameState(val world: World) : GameState() {
+class MainGameState(private val world: World) : GameState() {
 
     override fun onEnter() {}
 

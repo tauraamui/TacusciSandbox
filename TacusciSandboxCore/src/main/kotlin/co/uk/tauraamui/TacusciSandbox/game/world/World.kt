@@ -1,17 +1,19 @@
 package co.uk.tauraamui.TacusciSandbox.game.world
 
+import co.uk.tauraamui.TacusciSandbox.TacusciSandbox
+import co.uk.tauraamui.TacusciSandbox.game.entities.Entity
 import co.uk.tauraamui.TacusciSandbox.game.entities.mobs.Player
-import co.uk.tauraamui.TacusciSandbox.game.levels.Level
 
 /**
  * Created by tauraaamui on 03/04/2017.
  */
 
-class World() {
+class World(var tacusciSandbox: TacusciSandbox) {
 
-    var level = Level()
+    var player = Player()
 
-    fun update(delta: Float) {}
+    val entities = mutableListOf<Entity>()
+
+    fun update(delta: Float) { player.update(delta); entities.forEach { entity -> entity.update(delta) } }
     fun render(delta: Float) {}
-    fun loadLevel(level: Level) { this.level = level }
 }
