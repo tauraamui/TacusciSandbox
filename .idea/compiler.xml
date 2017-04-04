@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="TacusciSandbox_main" target="1.8" />
+      <module name="TacusciSandbox_test" target="1.8" />
       <module name="TacusciSandboxCore_main" target="1.8" />
       <module name="TacusciSandboxCore_test" target="1.8" />
       <module name="TacusciSandboxDesktop_main" target="1.8" />

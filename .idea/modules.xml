@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TacusciSandboxDesktop/TacusciSandboxDesktop.iml" filepath="$PROJECT_DIR$/.idea/modules/TacusciSandboxDesktop/TacusciSandboxDesktop.iml" group="TacusciSandboxDesktop" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TacusciSandboxDesktop/TacusciSandboxDesktop_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TacusciSandboxDesktop/TacusciSandboxDesktop_main.iml" group="TacusciSandboxDesktop" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TacusciSandboxDesktop/TacusciSandboxDesktop_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TacusciSandboxDesktop/TacusciSandboxDesktop_test.iml" group="TacusciSandboxDesktop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TacusciSandbox_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TacusciSandbox_main.iml" group="TacusciSandbox" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TacusciSandbox_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TacusciSandbox_test.iml" group="TacusciSandbox" />
     </modules>
   </component>
 </project>
