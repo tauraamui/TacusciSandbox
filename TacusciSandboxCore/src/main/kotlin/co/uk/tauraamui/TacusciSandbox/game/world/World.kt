@@ -1,6 +1,6 @@
 package co.uk.tauraamui.TacusciSandbox.game.world
 
-import co.uk.tauraamui.TacusciSandbox.game.Player
+import co.uk.tauraamui.TacusciSandbox.game.entities.mobs.Player
 import co.uk.tauraamui.TacusciSandbox.game.levels.Level
 
 /**
