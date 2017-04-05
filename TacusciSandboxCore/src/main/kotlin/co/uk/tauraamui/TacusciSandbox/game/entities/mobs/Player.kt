@@ -1,18 +1,11 @@
 package co.uk.tauraamui.TacusciSandbox.game.entities.mobs
 
 import com.shc.silenceengine.input.Keyboard
-import com.shc.silenceengine.math.Vector3
 
 /**
  * Created by tauraaamui on 03/04/2017.
  */
 class Player : Mob() {
-
-    var planeAngle = 0.toDouble()
-    var heightAngle = 0.toDouble()
-
-    var direction = Vector3()
-    var velocity = 1
 
     init {
         position.x = 0F
