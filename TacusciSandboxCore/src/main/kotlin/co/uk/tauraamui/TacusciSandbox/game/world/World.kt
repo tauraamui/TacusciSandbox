@@ -1,8 +1,9 @@
 package co.uk.tauraamui.TacusciSandbox.game.world
 
 import co.uk.tauraamui.TacusciSandbox.TacusciSandbox
-import co.uk.tauraamui.TacusciSandbox.game.entities.Entity
 import co.uk.tauraamui.TacusciSandbox.game.entities.mobs.Player
+import com.shc.silenceengine.graphics.cameras.PerspCam
+import com.shc.silenceengine.scene.Scene3D
 
 /**
  * Created by tauraaamui on 03/04/2017.
@@ -10,10 +11,16 @@ import co.uk.tauraamui.TacusciSandbox.game.entities.mobs.Player
 
 class World(var tacusciSandbox: TacusciSandbox) {
 
+    var perspCam: PerspCam? = null
     var player = Player()
+    var scene = Scene3D()
 
-    val entities = mutableListOf<Entity>()
+    fun load() {
+        perspCam = PerspCam()
+        perspCam?.position = player.position
+        scene.entities.add(player)
+    }
 
-    fun update(delta: Float) { player.update(delta); entities.forEach { entity -> entity.update(delta) } }
+    fun update(delta: Float) { scene.update(delta); perspCam?.position = player.position; println(perspCam?.position) }
     fun render(delta: Float) {}
 }

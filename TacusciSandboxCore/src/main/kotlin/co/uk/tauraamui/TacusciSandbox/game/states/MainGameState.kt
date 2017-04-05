@@ -8,7 +8,9 @@ import com.shc.silenceengine.core.GameState
  */
 class MainGameState(private val world: World) : GameState() {
 
-    override fun onEnter() {}
+    override fun onEnter() {
+        world.load()
+    }
 
     override fun update(delta: Float) {
         world.update(delta)
