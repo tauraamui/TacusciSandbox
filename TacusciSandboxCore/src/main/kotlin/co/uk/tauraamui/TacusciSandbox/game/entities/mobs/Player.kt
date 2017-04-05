@@ -13,7 +13,7 @@ class Player : Mob() {
         position.z = 0F
     }
 
-    override fun onUpdate(delta: Float) {
+    override fun onUpdate(deltaTime: Float) {
 
         if (Keyboard.isKeyDown(Keyboard.KEY_A)) planeAngle -= 1
         if (Keyboard.isKeyDown(Keyboard.KEY_D)) planeAngle += 1
@@ -31,6 +31,6 @@ class Player : Mob() {
         if (Keyboard.isKeyDown(Keyboard.KEY_W)) position.add(direction)
         if (Keyboard.isKeyDown(Keyboard.KEY_S)) position.subtract(direction)
 
-        super.onUpdate(delta)
+        super.onUpdate(deltaTime)
     }
 }

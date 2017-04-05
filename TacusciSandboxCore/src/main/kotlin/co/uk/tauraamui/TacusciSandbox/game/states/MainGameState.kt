@@ -12,12 +12,12 @@ class MainGameState(private val world: World) : GameState() {
         world.load()
     }
 
-    override fun update(delta: Float) {
-        world.update(delta)
+    override fun update(deltaTime: Float) {
+        world.update(deltaTime)
     }
 
-    override fun render(delta: Float) {
-        world.render(delta)
+    override fun render(deltaTime: Float) {
+        world.render(deltaTime)
     }
 
     override fun resized() {}

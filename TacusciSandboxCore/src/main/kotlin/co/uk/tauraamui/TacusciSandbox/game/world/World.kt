@@ -21,6 +21,6 @@ class World(var tacusciSandbox: TacusciSandbox) {
         scene.entities.add(player)
     }
 
-    fun update(delta: Float) { scene.update(delta); perspCam?.position = player.position }
-    fun render(delta: Float) {}
+    fun update(deltaTime: Float) { scene.update(deltaTime); perspCam?.position = player.position }
+    fun render(deltaTime: Float) {}
 }

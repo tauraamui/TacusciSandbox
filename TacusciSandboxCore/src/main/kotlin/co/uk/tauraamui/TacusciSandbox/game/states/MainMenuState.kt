@@ -12,8 +12,8 @@ import com.shc.silenceengine.core.GameState
 class MainMenuState : GameState() {
 
     override fun onEnter() {}
-    override fun update(delta: Float) {}
-    override fun render(delta: Float) {}
+    override fun update(deltaTime: Float) {}
+    override fun render(deltaTime: Float) {}
     override fun resized() {}
     override fun onLeave() {}
 }
