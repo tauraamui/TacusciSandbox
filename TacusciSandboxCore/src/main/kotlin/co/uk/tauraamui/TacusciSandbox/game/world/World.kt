@@ -1,6 +1,7 @@
 package co.uk.tauraamui.TacusciSandbox.game.world
 
 import co.uk.tauraamui.TacusciSandbox.TacusciSandbox
+import co.uk.tauraamui.TacusciSandbox.game.entities.mobs.MonkeyHead
 import co.uk.tauraamui.TacusciSandbox.game.entities.mobs.Player
 import com.shc.silenceengine.graphics.cameras.PerspCam
 import com.shc.silenceengine.scene.Scene3D
@@ -19,6 +20,7 @@ class World(var tacusciSandbox: TacusciSandbox) {
         perspCam = PerspCam()
         perspCam?.position = player.position
         scene.entities.add(player)
+        scene.entities.add(MonkeyHead())
     }
 
     fun update(deltaTime: Float) { scene.update(deltaTime); perspCam?.position = player.position }
